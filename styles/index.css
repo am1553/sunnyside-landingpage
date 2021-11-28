@@ -1,0 +1,437 @@
+body {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+
+body p {
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.13px;
+  font-weight: 600;
+  color: #818398;
+}
+
+body h1,
+body h2,
+body h3,
+body .client-name,
+body .learn-more {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+}
+
+body h1 {
+  color: white;
+  font-size: 2.5rem;
+  letter-spacing: 6.25px;
+  text-transform: uppercase;
+}
+
+body h2 {
+  font-size: 2rem;
+  letter-spacing: -0.23px;
+  color: #23303e;
+}
+
+body h3 {
+  font-size: 1rem;
+  letter-spacing: 4px;
+  color: #a7abae;
+  text-transform: uppercase;
+}
+
+body .learn-more {
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #23303e;
+  text-transform: uppercase;
+}
+
+body .client-name {
+  font-size: 1.125rem;
+  letter-spacing: -0.13px;
+  color: #23303e;
+}
+
+body .client-status {
+  font-size: 0.875rem;
+  line-height: 1.5625rem;
+  letter-spacing: -0.1px;
+  color: #a7abae;
+}
+
+body .footer-links {
+  font-size: 1.125rem;
+  letter-spacing: -0.13px;
+  text-decoration: none;
+  color: #458c7e;
+}
+
+body .nav-links {
+  color: #818398;
+  font-size: 1.25rem;
+  letter-spacing: -0.14px;
+  line-height: 1.5625rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body ul {
+  list-style-type: none;
+}
+
+body img {
+  display: block;
+}
+
+@media screen and (min-width: 720px) {
+  header .mobile-nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  header .desktop-nav {
+    display: none;
+  }
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1.5rem;
+}
+
+header .header-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+header .mobile-nav button {
+  height: 3rem;
+  width: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  background: transparent;
+}
+
+header .mobile-nav .nav-pan {
+  overflow: hidden;
+  position: absolute;
+  background: white;
+  width: 90%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2rem;
+  z-index: 100;
+}
+
+header .mobile-nav .nav-pan a {
+  padding: 1rem 0;
+  width: 40%;
+  text-align: center;
+  text-decoration: none;
+}
+
+header .mobile-nav .nav-pan .nav-contact {
+  background-color: #fad400;
+  color: #23303e;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .mobile-nav .nav-panel-close {
+  -webkit-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  height: 0;
+}
+
+header .mobile-nav .nav-panel-open {
+  -webkit-transition: all 400ms ease-in;
+  transition: all 400ms ease-in;
+  height: 60vh;
+}
+
+main .home {
+  height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+main .home h1,
+main .home img {
+  z-index: 0;
+  padding: 0 0 4rem 0;
+}
+
+main .about {
+  min-height: 100vh;
+  padding-bottom: 5rem;
+}
+
+main .about img {
+  width: 100%;
+}
+
+main .about .about-text-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main .about h2 {
+  margin: 5rem 0 0;
+}
+
+main .about p {
+  margin: 2rem 0;
+}
+
+main .strategy {
+  min-height: 100vh;
+  padding-bottom: 5rem;
+}
+
+main .strategy img {
+  width: 100%;
+}
+
+main .strategy .strategy-text-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main .strategy h2 {
+  margin: 5rem 0 0;
+}
+
+main .strategy p {
+  margin: 2rem 0;
+}
+
+main .graphic-design {
+  position: relative;
+}
+
+main .graphic-design img {
+  width: 100%;
+}
+
+main .graphic-design .graphic-design-text-wrapper {
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+  bottom: 50px;
+}
+
+main .graphic-design .graphic-design-text-wrapper h2 {
+  margin: 5rem 0 0;
+  color: #25564b;
+}
+
+main .graphic-design .graphic-design-text-wrapper p {
+  margin: 2rem 0;
+  color: #25564b;
+}
+
+main .photography {
+  position: relative;
+}
+
+main .photography img {
+  width: 100%;
+}
+
+main .photography .photography-text-wrapper {
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+  bottom: 50px;
+}
+
+main .photography .photography-text-wrapper h2 {
+  margin: 5rem 0 0;
+  color: #19536b;
+}
+
+main .photography .photography-text-wrapper p {
+  margin: 2rem 0;
+  color: #19536b;
+}
+
+main .testimonials {
+  text-align: center;
+}
+
+main .testimonials h3 {
+  margin: 4rem 0 0;
+}
+
+main .testimonials .testimonial {
+  width: 80%;
+  margin: 4rem auto;
+}
+
+main .testimonials .testimonial .client-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+main .testimonials .testimonial .client-img img {
+  width: 100%;
+}
+
+main .testimonials .testimonial .client-details p {
+  margin: 2.5rem 0;
+}
+
+main .testimonials .testimonial .client-details span {
+  display: block;
+  margin: 1rem 0;
+}
+
+main footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 50% 50%;
+      grid-template-rows: 50% 50%;
+}
+
+main footer img {
+  width: 100%;
+}
+
+footer {
+  background-color: #90d4c6;
+  padding-bottom: 4rem;
+}
+
+footer .logo {
+  -webkit-filter: invert(31%) sepia(6%) saturate(5048%) hue-rotate(118deg) brightness(51%) contrast(73%);
+          filter: invert(31%) sepia(6%) saturate(5048%) hue-rotate(118deg) brightness(51%) contrast(73%);
+  margin: 0 auto;
+  padding: 3rem 0 0;
+  width: 50%;
+}
+
+footer nav {
+  margin: 2rem 0;
+}
+
+footer nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .socials {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .socials ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .socials ul img {
+  -webkit-filter: invert(33%) sepia(61%) saturate(391%) hue-rotate(118deg) brightness(50%) contrast(89%);
+          filter: invert(33%) sepia(61%) saturate(391%) hue-rotate(118deg) brightness(50%) contrast(89%);
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,35 @@
+footer {
+  background-color: #90d4c6;
+  padding-bottom: 4rem;
+  .logo {
+    filter: invert(31%) sepia(6%) saturate(5048%) hue-rotate(118deg)
+      brightness(51%) contrast(73%);
+    margin: 0 auto;
+    padding: 3rem 0 0;
+    width: 50%;
+  }
+
+  nav {
+    margin: 2rem 0;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+
+  .socials {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    ul {
+      display: flex;
+      width: 50%;
+      justify-content: space-around;
+      img {
+        filter: invert(33%) sepia(61%) saturate(391%) hue-rotate(118deg)
+          brightness(50%) contrast(89%);
+      }
+    }
+  }
+}

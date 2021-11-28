@@ -1,0 +1,15 @@
+main {
+  .home {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    h1,
+    img {
+      z-index: 0;
+      padding: 0 0 4rem 0;
+    }
+  }
+}

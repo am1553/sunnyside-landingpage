@@ -1,0 +1,31 @@
+main {
+  .testimonials {
+    text-align: center;
+    h3 {
+      margin: 4rem 0 0;
+    }
+    .testimonial {
+      width: 80%;
+      margin: 4rem auto;
+      .client-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto;
+        img {
+          width: 100%;
+        }
+      }
+      .client-details {
+        p {
+          margin: 2.5rem 0;
+        }
+        span {
+          display: block;
+          margin: 1rem 0;
+        }
+      }
+    }
+  }
+}

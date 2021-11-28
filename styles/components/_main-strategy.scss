@@ -1,0 +1,21 @@
+main {
+  .strategy {
+    min-height: 100vh;
+    padding-bottom: 5rem;
+    img {
+      width: 100%;
+    }
+    .strategy-text-wrapper {
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    h2 {
+      margin: 5rem 0 0;
+    }
+    p {
+      margin: 2rem 0;
+    }
+  }
+}
